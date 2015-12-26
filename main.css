@@ -1,0 +1,14 @@
+#Heading{
+  text-align: center;
+  color: #123456;  
+}
+.quote{
+  text-align: center;
+  
+}
+.currentQuote{
+	font-size: 2em;
+}
+#author{
+	font-size:1em;
+}
