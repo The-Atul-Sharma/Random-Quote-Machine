@@ -19,8 +19,8 @@ $(document).ready(function(){
 			success: function(data){
 				$currentQuote.text(data.quoteText);
 				$author.text(data.quoteAuthor);
-				if (data.quoteText.length > 125){
-					data.quoteText = data.quoteText.slice(0,125);
+				if (data.quoteText.length > 120){
+					data.quoteText = data.quoteText.slice(0,120);
 					data.quoteText += "...";
 				}
 				$tweet.attr("href", "https://twitter.com/intent/tweet?text="+ data.quoteText + "-"+ data.quoteAuthor );
